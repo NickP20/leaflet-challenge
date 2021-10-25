@@ -30,5 +30,5 @@ Plot a second data set on the map to illustrate the relationship between tectoni
 - Separate out the two different data sets (earthquakes and tectonic plates) into overlays that can be turned on and off independently
 - Add layer controls to the map
 <p align="center">
-  <img src="https://github.com/.png">
+  <img src="https://github.com/NickP20/leaflet-challenge/blob/main/Images/step2_map.PNG">
 </p>
