@@ -1,5 +1,5 @@
 # Visualizing Data with Leaflet
-![Earthquake]("https://github.com/NickP20/leaflet-challenge/blob/main/Images/1-Logo.png")
+<img src="https://github.com/NickP20/leaflet-challenge/blob/main/Images/1-Logo.png">
 
 ## Deployment Link
 [Explore The Earthquake Map](https://nickp20.github.io/leaflet-challenge/)
