@@ -11,12 +11,12 @@ I utilized leaflet, Javascript and D3 to visualize the earthquake data from the 
 ### Get the Data Set
 - The USGS provides earthquake data in a number of different formats, updated every 5 minutes
 - The "All Earthquakes from the Past 7 Days" data set was selected from the [USGS GeoJSON Feed](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page
-- The data was given in JSON format which was used to pull in the data for the visualization
+- The data was given in JSON format which was used to extract the data
 ### Import and Visualize the Data
 Create a map using Leaflet that plots all of the earthquakes from the data set based on their longitude and latitude.
 - The data markers reflect the magnitude of the earthquake by their size and and depth of the earth quake by color
-- Earthquakes with higher magnitudes appear larger and earthquakes with greater depth should appear darker in color
-- Popups that provide additional information about the earthquake were included when a marker is clicked
+- Data markers reflect the magnitude of the earthquake by their size and and depth of the earth quake by color
+- Popups provide additional information about the earthquake when a marker is clicked
 - A legend was created to provide context for the map data
 <p align="center">
   <img src="https://github.com/NickP20/leaflet-challenge/blob/main/Images/step1_map.PNG">
@@ -24,9 +24,9 @@ Create a map using Leaflet that plots all of the earthquakes from the data set b
 
 ## Level-2: More Data
 Plot a second data set on the map to illustrate the relationship between tectonic plates and seismic activity.
-- Utilize [Tectonic Plates](https://github.com/fraxen/tectonicplates) data set
-- Visualize it along side the original set of data
-- Add a number of base maps (Satellite Map, Grayscale Map, Outdoors Map and Dark Map) to choose from
+- Data on tectonic plates [Tectonic Plates](https://github.com/fraxen/tectonicplates)
+- Plot a second data set
+- Add a number of base maps to choose from (Satellite Map, Grayscale Map, and Outdoors Map)
 - Separate out the two different data sets (earthquakes and tectonic plates) into overlays that can be turned on and off independently
 - Add layer controls to the map
 <p align="center">
