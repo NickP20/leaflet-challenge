@@ -1,5 +1,5 @@
 # Visualizing Data with Leaflet
-![Earthquake](/Images/1-Logo.png)
+![Earthquake](.Images/1-Logo.png)
 
 ## Deployment Link
 
