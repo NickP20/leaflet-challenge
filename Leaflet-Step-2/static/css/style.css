@@ -9,35 +9,26 @@ html {
   height: 100%;
 }
 
-/* Set Legend Style */
-.info {
-  padding: 1px 10px;
-  background: #ebfae2;
-  border-radius: 5px;
+.legend{
+  background-color: white;
+  width: 75px;
+  text-align: center;
+  padding: 5px;
 }
 
-.legend {
-  line-height: 25px;
-  color: #000000;
+.legend div{
+  width: 100%;
+  /* width: 50px; */
+  /* margin-bottom: 5px; */
 }
 
-.legend i {
-  width: 20px;
-  height: 20px;
-  float: right;
-  margin-right: 10px;
-  margin-left: 10px;
-  opacity: 0.75;
+i{
+  float:left;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
 }
 
-h3 {
-  margin: 0px;
-  padding: 2px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  margin: -5px;
-  padding: -6px;
-  font-family: Arial, Helvetica, sans-serif;
+.leaflet-right .leaflet-control{
+  margin-right: 25px !important;
 }
