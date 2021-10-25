@@ -19,7 +19,7 @@ Create a map using Leaflet that plots all of the earthquakes from the data set b
 - Popups that provide additional information about the earthquake were included when a marker is clicked
 - A legend was created to provide context for the map data
 <p align="center">
-  <img src="https://github.com/.png">
+  <img src="https://github.com/NickP20/leaflet-challenge/blob/main/Images/step1_map.PNG">
 </p>
 
 ## Level-2: More Data
