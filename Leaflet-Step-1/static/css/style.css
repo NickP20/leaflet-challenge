@@ -8,3 +8,27 @@ body,
 html {
   height: 100%;
 }
+
+.legend{
+  background-color: white;
+  width: 75px;
+  text-align: center;
+  padding: 5px;
+}
+
+.legend div{
+  width: 100%;
+  /* width: 50px; */
+  /* margin-bottom: 5px; */
+}
+
+i{
+  float:left;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.leaflet-right .leaflet-control{
+  margin-right: 25px !important;
+}
