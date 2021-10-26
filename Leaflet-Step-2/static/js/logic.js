@@ -52,7 +52,7 @@ d3.json(earthQuakeUrl).then(function(data) {
   earthquakeData.forEach(
       function(earthQuake){
         earthquakeMarker.push(L.circleMarker(earthQuake.location,{
-          fillOpacity:0.75,
+          fillOpacity:0.9,
           color:getColor(earthQuake.depth),
           radius: earthQuake.mag*5,
           fillColor: getColor(earthQuake.depth)
@@ -62,7 +62,7 @@ d3.json(earthQuakeUrl).then(function(data) {
 
   //overlay maps
   var overlayMaps = {
-      "Tectronic Plates": plateLayer,  
+      "Tectonic Plates": plateLayer,  
       "Earthquakes": earthQuakeLayer
   };
 
