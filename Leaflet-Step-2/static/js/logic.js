@@ -56,7 +56,7 @@ d3.json(earthQuakeUrl).then(function(data) {
           color:getColor(earthQuake.depth),
           radius: earthQuake.mag*5,
           fillColor: getColor(earthQuake.depth)
-        }).bindPopup(`<h2>${earthQuake.place}</h2><hr><h3>Mag: ${earthQuake.mag}</h3><hr><h4>Depth: ${earthQuake.depth}</h4><hr><h4>latitude/longitude: ${earthQuake.location}<h/4>`));  
+        }).bindPopup(`<h2>${earthQuake.place}</h2><hr><h3>Mag: ${earthQuake.location}</h3><hr><h4>Depth: ${earthQuake.mag}</h4><hr><h4>latitude/longitude: ${earthQuake.depth}<h/4>`));  
       });   
   var earthQuakeLayer = L.layerGroup(earthquakeMarker); 
 
